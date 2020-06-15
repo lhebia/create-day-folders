@@ -8,6 +8,6 @@ try:
     for path in required_paths:
         os.mkdir(path)
 except OSError:
-    print('Creation of directory has failed')
+    print('Creation of directories has failed')
 else:
-    print ('Succesfully created the directorys')
+    print ('Succesfully created the directoriess')
